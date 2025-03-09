@@ -10,8 +10,8 @@ import { API_URL } from "../config/config";
 // const API_BASE_URL_2 = "http://localhost:8081/api/categories";
 
 //for prod use
-const API_BASE_URL = `${API_URL}/products`;
-const API_BASE_URL_2 = `${API_URL}/categories`;
+const API_BASE_URL = `${API_URL}products`;
+const API_BASE_URL_2 = `${API_URL}categories`;
 
 export const getAllCategories = async () => {
   try {
