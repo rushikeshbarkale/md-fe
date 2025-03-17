@@ -24,10 +24,10 @@ const Navbar = () => {
           <Link to="/" className="text-gray-700 hover:text-blue-600">
             Home
           </Link>
-          <Link to="/about" className="text-gray-700 hover:text-blue-600">
+          <Link to="/" className="text-gray-700 hover:text-blue-600">
             About Us
           </Link>
-          <Link to="/contact" className="text-gray-700 hover:text-blue-600">
+          <Link to="/" className="text-gray-700 hover:text-blue-600">
             Contact Us
           </Link>
           {/* <Link
@@ -89,14 +89,14 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/about"
+            to="/"
             className="text-gray-700 hover:text-blue-600"
             onClick={() => setIsOpen(false)}
           >
             About Us
           </Link>
           <Link
-            to="/contact"
+            to="/"
             className="text-gray-700 hover:text-blue-600"
             onClick={() => setIsOpen(false)}
           >
